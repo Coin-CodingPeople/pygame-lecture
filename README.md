@@ -1,14 +1,89 @@
 # pygame-lecture
 
+- 모든 것을 이해하지는 못한다
+- 보조자료
+- 복습자료
+
 2019 겨울 코딩캠프 강의 교안
 
-1. pygame 설명
-2. pygame 설치
-3. Tutorial
-   1. Creating Simple Window
-   2. Creating Sprites using Pygame
-   3. How to control your sprites
-   4. Changing Sprites' image
+목표
+
+- 게임 프로그래밍 맛보기
+- Pygame 사용해보기
+- Python으로 무언가를 만들어보기
+
+1. Pygame 이란?
+	1. 모듈이란?
+	2. Pygame이란?
+	3. Pygame 설치하기
+	4. Hello Pygame! 	
+2. 게임 프로그래밍
+	1. 게임이란?
+	2. 게임의 필수요소
+	3. 게임과 프로그래밍 
+3. Pygame 시작하기
+
+## 1. Pygame이란?
+
+### 1. 모듈이란?
+**유용한 코드조각들을 쓰기 쉽게 모아 놓은 것**
+
+#### Keyword
+- 반복작업
+- 공유
+- input/output
+- 알아야 하는 것, 알 필요가 없는 것
+
+우리는 닭의 모이를 주면 달걀이 나온다는 것을 안다. 그러나 닭이 무슨 작업을 하는지 어떻게 소화를 시키는지를 알 필요는 없다.
+
+### 2. Pygame이란?
+[Wikipedia](https://en.wikipedia.org/wiki/Pygame)
+
+Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.
+
+- 비디오 게임을 제작하기 위해 필요
+- 크로스 플랫폼 파이썬 모듈
+- 컴퓨터 그래픽스와 사운드 관련 라이브러리(=모듈)을 포함하고 있다
+
+### 3. Pygame 설치하기
+[Pygame Getting Started](https://www.pygame.org/wiki/GettingStarted)
+
+### 4. Hello Pygame!
+[add first pygame app](https://github.com/Coin-CodingPeople/pygame-lecture/blob/8940b692e4b6d2d84843ab51a0d6e1181fbb14ad/main.py)
+
+### 요약
+- Pygame에 대한 간단한 소개
+- 창 띄워보기
+- 모듈이란?
+
+## 2. 게임 프로그래밍
+
+### 1. 게임이란?
+정해진 규칙에 따라 정해진 목표를 향해가는 것
+
+마우스, 키보드 등의 입력장치를 통해 여러 활동을 하다 보면 레벨업, 보스잡이와 같은 목표를 이룰 수 있다.
+
+#### 비디오게임이란?
+마우스, 키보드, 조이스틱과 같은 표준입력장치를 통해 입력을 하고 모니터를 이용하여 출력을 하여 게임을 진행하는 것
+
+### 2. 게임의 필수요소
+입력 받기, 처리하기, 출력 하기
+
+1. 게임 실행
+2. 초기화
+3. 입력
+4. 처리
+5. 출력
+6. 종료
+
+### 3. 게임과 프로그래밍
+
+<hr/>
+
+1. Creating Simple Window
+2. Creating Sprites using Pygame
+3. How to control your sprites
+4. Changing Sprites' image
 
 ## How to run?
 ```shell
